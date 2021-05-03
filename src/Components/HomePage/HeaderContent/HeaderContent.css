@@ -1,0 +1,23 @@
+.header-content{
+    background-image: url('../../../Images/Image/slider01.jpg');
+    background-repeat: no-repeat;
+    background-attachment: scroll;
+    background-size: 100%;
+    text-align: center;
+    color: white;
+    padding: 15px 0px;
+    min-height: 450px;
+}
+.header-content h1{
+    font-size: 80px;
+}
+.header-content p{
+    padding: 10px;
+}
+/* Small devices (landscape phones, 576px and up) */
+
+@media (max-width: 575px) {
+.header-content{
+    min-height: 350px;
+}
+}

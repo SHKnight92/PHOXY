@@ -1,0 +1,25 @@
+.photo-card{
+    width: 22%;
+    margin: 0 auto;
+    border: 1px solid lightgray;
+    padding: 10px;
+    border-radius: 5px;
+}
+.photo-card img{
+    height: 200px;
+}
+
+/* Small devices (landscape phones, 576px and up) */
+
+@media (max-width: 575px) {
+  .photo-card{
+    width: 85%;
+    margin-bottom: 8px;
+}
+.photo-card h6{
+    margin: 5px;
+}
+.photo-card img{
+    height:250px;
+}
+}

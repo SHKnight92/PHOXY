@@ -1,0 +1,16 @@
+.about-section {
+  background: rgb(247, 247, 247);
+  padding: 20px 0px;
+}
+.about-section h1 {
+  text-align: center;
+  margin: 50px 0px;
+}
+
+/* Small devices (landscape phones, 576px and up) */
+
+@media (max-width: 575px) {
+.email{
+    width:90%;
+}
+}

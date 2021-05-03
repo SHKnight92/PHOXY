@@ -1,0 +1,32 @@
+.testimonial-card{
+    width: 20%;
+     margin: 0 auto;
+    border: 1px solid lightgray;
+    padding: 10px;
+    text-align: center;
+    border-radius: 5px;
+}
+.testimonial-card img{
+    width: 120px;
+    height: 120px;
+    border: 2px solid #DC3545;
+    border-radius: 50%;
+}
+
+/* Small devices (landscape phones, 576px and up) */
+
+@media (max-width: 575px) {
+  .testimonial-card{
+    width: 85%;
+    padding: 5px;
+}
+.testimonial-card small{
+    font-size: 15px;
+}
+.testimonial-card img{
+    width: 120px;
+    height: 120px;
+    border: 2px solid #DC3545;
+    border-radius: 50%;
+}
+}

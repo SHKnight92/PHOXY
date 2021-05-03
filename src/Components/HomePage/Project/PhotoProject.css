@@ -1,0 +1,19 @@
+.project-section{
+ padding: 80px 20px;
+}
+.project-section h1{
+    text-align: center;
+    padding: 25px 0px;
+}
+
+/* Small devices (landscape phones, 576px and up) */
+
+@media (max-width: 575px) {
+.project-section{
+ padding: 0px 20px;
+}
+.project-section h1{
+    text-align: center;
+    padding: 25px 0px;
+}
+}

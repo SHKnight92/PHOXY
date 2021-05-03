@@ -1,0 +1,49 @@
+.form{
+    width: 55%;
+    margin: 50px auto;
+    border: 1px solid gray;
+    text-align: center;
+    padding: 40px 0px;
+    border-radius: 5px;
+}
+.form .input-field, .form .input-submit, .form .input-google{
+    padding: 8px 15px;
+    width: 50%;
+    border: 1px solid gray;
+    margin: 8px 10px;
+    border-radius: 5px;
+}
+.form .input-submit{
+   background-color:  rgb(74, 54, 255);
+   color: white;
+}
+.form .input-google{
+   color: rgb(74, 54, 255);
+   border: 1px solid rgb(74, 54, 255);
+}
+.form .input-check{
+    margin: 15px 10px;
+}
+.google{
+    font-size: 25px;
+    margin-right: 10px;
+}
+
+/* Small devices (landscape phones, 576px and up) */
+
+@media (max-width: 576px) { 
+    .form{
+        width: 80%;
+        padding: 15px 0px;
+    }
+    .form .input-field, .form .input-submit, .form .input-google{
+        padding: 8px 15px;
+        width: 80%;
+        border: 1px solid gray;
+        margin: 8px 10px;
+    }
+    .google{
+        font-size: 20px;
+    }
+}
+
